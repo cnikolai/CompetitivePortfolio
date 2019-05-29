@@ -43,15 +43,23 @@ body, html{
   /* height: 100%; */
 }
 
+.fas {
+  color: #ffffff;
+}
+
+.white {
+  color: #ffffff;
+}
+
 .backbutton {
   /* display: flex; */
   align-self: flex-start;
-  width: 90px;
+  width: 100px;
   padding: 15px;
-  color: black;
+  color: #ffffff;
   float:left;
   margin: 5px;
-  background-color: #4aaaa5;
+  background-color: #165ac9;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -100,6 +108,7 @@ body, html{
 }
 
 .main-section {
+  /* align-items: center; */
   float:left;
   width: 100%;
   max-width: 960px;
@@ -229,7 +238,7 @@ nav > section {
 }
 
 .name {
-  color: #4aaaa5;
+  color: #165ac9;
   /* padding: 10px; */
   margin: 10px;
   border-top-right-radius: 15px;
@@ -238,7 +247,7 @@ nav > section {
 
 
 h1 {
-  color: #4aaaa5;
+  color: #80a4dd;
   /* padding: 10px; */
   margin: 5px;
   /* font-size: 20pt; */
@@ -252,7 +261,7 @@ h1 {
   /* height: 57px; */
   margin-bottom: 0px;
   padding-bottom: 0px;
-  background-color: #4aaaa5;
+  background-color: #80a4dd;
 }
 
 #leftsideofmenu > h1 {
@@ -288,7 +297,7 @@ h1 {
 /* }  */
 
 footer {
-  background-color: #4aaaa5;
+  background-color: #165ac9;
   color: #ffffff;
   height: 57px;
   /* position:absolute;
@@ -318,12 +327,16 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #165ac9;
   height: 50px;
 } */
 
 #aboutme {
-  border-bottom: 2px solid #dddddd;
+  /* border-bottom: 2px solid #dddddd; */
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24pt;
+  color: #165ac9;
 }
 
 /* portfolio page */
@@ -331,13 +344,18 @@ footer {
 .work {
   position: relative;
   float: left;
+  /* align-items: center; */
   width: 274px;
   margin: 20px 0 25px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .work:nth-child(even) {
   margin-right: 40px;
+}
+
+.work:nth-child(even) {
+  margin-left: 120px;
 }
 
 .work img {
@@ -356,7 +374,7 @@ footer {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #80a4dd;
   border-bottom: 0;
 }
 
